@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\diogo\\.nuget\\packages\\": {}
+    "C:\\Users\\Aluno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
+      "projectUniqueName": "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
       "projectName": "MultApps.Client.Windows",
-      "projectPath": "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
-      "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\obj\\",
+      "projectPath": "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
+      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+      "outputPath": "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

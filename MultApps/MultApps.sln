@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{0ECB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{C8A7D244-2D59-4A7A-8566-083C515EB468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultApps.Client.Windows", "clients\MultApps.Client.Windows\MultApps.Client.Windows.csproj", "{19A72AB2-9E70-4A14-992D-92393588CE09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultApps.Client.Windows", "clients\MultApps.Client.Windows\MultApps.Client.Windows.csproj", "{19A72AB2-9E70-4A14-992D-92393588CE09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultApps.Server.Core", "server\MultApps.Server.Core\MultApps.Server.Core.csproj", "{A875530E-A446-4AAF-BB73-71144233D0E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultApps.Server.Core", "server\MultApps.Server.Core\MultApps.Server.Core.csproj", "{A875530E-A446-4AAF-BB73-71144233D0E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
