@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ROpOp9Tg1N69SNqZtMpRcq4smVFeYIuGPcQHccLkb1OOfVs5WKwOnW2EM473RUUIdwUOG7RWWSjgKu2IZh9tcQ==",
+  "dgSpecHash": "pGLks1H++6ysRkThULL6hnlIwiYfsY0YxPSjk93oamutNl9uSA/wh0cd9gNEORVyTaVXHfMNcJXSbz/bipmOiA==",
   "success": true,
-  "projectFilePath": "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\server\\MultApps.Server.Core\\MultApps.Server.Core.csproj",
+  "projectFilePath": "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\server\\MultApps.Server.Core\\MultApps.Server.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

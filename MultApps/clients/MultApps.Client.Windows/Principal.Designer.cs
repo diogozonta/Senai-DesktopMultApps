@@ -36,29 +36,35 @@
             // 
             // btnAbrirFormPesoIdeal
             // 
-            this.btnAbrirFormPesoIdeal.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAbrirFormPesoIdeal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(115)))), ((int)(((byte)(62)))));
             this.btnAbrirFormPesoIdeal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAbrirFormPesoIdeal.BackgroundImage")));
             this.btnAbrirFormPesoIdeal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAbrirFormPesoIdeal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbrirFormPesoIdeal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbrirFormPesoIdeal.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAbrirFormPesoIdeal.ForeColor = System.Drawing.Color.Black;
-            this.btnAbrirFormPesoIdeal.Location = new System.Drawing.Point(62, 12);
+            this.btnAbrirFormPesoIdeal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(217)))), ((int)(((byte)(59)))));
+            this.btnAbrirFormPesoIdeal.Location = new System.Drawing.Point(24, 12);
             this.btnAbrirFormPesoIdeal.Name = "btnAbrirFormPesoIdeal";
-            this.btnAbrirFormPesoIdeal.Size = new System.Drawing.Size(245, 78);
+            this.btnAbrirFormPesoIdeal.Size = new System.Drawing.Size(249, 65);
             this.btnAbrirFormPesoIdeal.TabIndex = 0;
-            this.btnAbrirFormPesoIdeal.Text = "        Peso Ideal";
+            this.btnAbrirFormPesoIdeal.Text = "Peso Ideal";
+            this.btnAbrirFormPesoIdeal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAbrirFormPesoIdeal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAbrirFormPesoIdeal.UseVisualStyleBackColor = false;
             this.btnAbrirFormPesoIdeal.Click += new System.EventHandler(this.btnAbrirFormPesoIdeal_Click);
             // 
             // btnAbrirFormMatriculaAluno
             // 
-            this.btnAbrirFormMatriculaAluno.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAbrirFormMatriculaAluno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(115)))), ((int)(((byte)(62)))));
             this.btnAbrirFormMatriculaAluno.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAbrirFormMatriculaAluno.BackgroundImage")));
             this.btnAbrirFormMatriculaAluno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAbrirFormMatriculaAluno.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbrirFormMatriculaAluno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbrirFormMatriculaAluno.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAbrirFormMatriculaAluno.ForeColor = System.Drawing.Color.Black;
-            this.btnAbrirFormMatriculaAluno.Location = new System.Drawing.Point(62, 96);
+            this.btnAbrirFormMatriculaAluno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(217)))), ((int)(((byte)(59)))));
+            this.btnAbrirFormMatriculaAluno.Location = new System.Drawing.Point(24, 83);
             this.btnAbrirFormMatriculaAluno.Name = "btnAbrirFormMatriculaAluno";
-            this.btnAbrirFormMatriculaAluno.Size = new System.Drawing.Size(245, 78);
+            this.btnAbrirFormMatriculaAluno.Size = new System.Drawing.Size(249, 65);
             this.btnAbrirFormMatriculaAluno.TabIndex = 1;
             this.btnAbrirFormMatriculaAluno.Text = "Matricula de Aluno";
             this.btnAbrirFormMatriculaAluno.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -68,14 +74,16 @@
             // 
             // btnAbrirFormReajusteSalarial
             // 
-            this.btnAbrirFormReajusteSalarial.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnAbrirFormReajusteSalarial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(115)))), ((int)(((byte)(62)))));
             this.btnAbrirFormReajusteSalarial.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAbrirFormReajusteSalarial.BackgroundImage")));
             this.btnAbrirFormReajusteSalarial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAbrirFormReajusteSalarial.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbrirFormReajusteSalarial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbrirFormReajusteSalarial.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAbrirFormReajusteSalarial.ForeColor = System.Drawing.Color.Black;
-            this.btnAbrirFormReajusteSalarial.Location = new System.Drawing.Point(62, 180);
+            this.btnAbrirFormReajusteSalarial.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(217)))), ((int)(((byte)(59)))));
+            this.btnAbrirFormReajusteSalarial.Location = new System.Drawing.Point(24, 154);
             this.btnAbrirFormReajusteSalarial.Name = "btnAbrirFormReajusteSalarial";
-            this.btnAbrirFormReajusteSalarial.Size = new System.Drawing.Size(245, 78);
+            this.btnAbrirFormReajusteSalarial.Size = new System.Drawing.Size(249, 65);
             this.btnAbrirFormReajusteSalarial.TabIndex = 2;
             this.btnAbrirFormReajusteSalarial.Text = "Reajuste Salarial";
             this.btnAbrirFormReajusteSalarial.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -87,8 +95,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(383, 286);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(18)))), ((int)(((byte)(38)))));
+            this.ClientSize = new System.Drawing.Size(304, 236);
             this.Controls.Add(this.btnAbrirFormReajusteSalarial);
             this.Controls.Add(this.btnAbrirFormMatriculaAluno);
             this.Controls.Add(this.btnAbrirFormPesoIdeal);
