@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aluno\\.nuget\\packages\\": {}
+    "C:\\Users\\diogo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
+      "projectUniqueName": "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
       "projectName": "MultApps.Client.Windows",
-      "projectPath": "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
-      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\obj\\",
+      "projectPath": "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
+      "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
+      "outputPath": "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\server\\MultApps.Server.Core\\MultApps.Server.Core.csproj": {
-              "projectPath": "C:\\curso-programacao\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\server\\MultApps.Server.Core\\MultApps.Server.Core.csproj"
+            "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\server\\MultApps.Server.Core\\MultApps.Server.Core.csproj": {
+              "projectPath": "C:\\diogo-workspace\\repos\\Senai-DesktopMultApps\\MultApps\\server\\MultApps.Server.Core\\MultApps.Server.Core.csproj"
             }
           }
         }

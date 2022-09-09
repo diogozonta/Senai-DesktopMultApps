@@ -15,23 +15,49 @@ namespace MultApps.Client.Windows.Funcionalidades
         public frmMatriculaAluno()
         {
             InitializeComponent();
+
+            lblHoje.Text = "Hoje é " + DateTime.Now.ToShortDateString();
+
         }
 
-        private void txtUltimoAniversario_Enter(object sender, EventArgs e)
+        private void btnIdentificarCategoria_Click(object sender, EventArgs e)
         {
-            if (txtAnoNascimento.Text.Trim().Length < 4)
+            if (txtNome.Text == String.Empty)
             {
-                MessageBox.Show("É preciso informar o ANO DE " + "NASCIMENTO com 4 dígitos", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                txtAnoNascimento.Focus();
+                MessageBox.Show("Você precisa digitar um nome", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-        }
 
-        private void txtAnoNascimento_Validating(object sender, CancelEventArgs e)
-        {
-            if (Convert.ToInt32(txtUltimoAniversario) <= Convert.ToInt32(txtAnoNascimento))
+            else
+            {
+                TimeSpan tsQuantidadeDias = DateTime.Now.Date - dtpNascimento.Value;
+
+                int idade = (tsQuantidadeDias.Days / 365);
+
+                if (idade > 17)
                 {
-                    MessageBox.Show("O ANO DO ÚLTIMO ANIVERSÁRIO " + "deve ser superior ao do nascimento.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation); e.Cancel = true;
-                }             
+                    lblResultadoCategoria.Text = "Adulto";
+                }
+                else if (idade > 13)
+                {
+                    lblResultadoCategoria.Text = "Juvenil B";
+                }
+                else if (idade > 10)
+                {
+                    lblResultadoCategoria.Text = "Juvenil A";
+                }
+                else if (idade > 7)
+                {
+                    lblResultadoCategoria.Text = "Infantil B";
+                }
+                else if (idade >= 5)
+                {
+                    lblResultadoCategoria.Text = "Infantil A";
+                }
+                else
+                {
+                    lblResultadoCategoria.Text = "Não existe categoria";
+                }
+            }
         }
     }
 }
