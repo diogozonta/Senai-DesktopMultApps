@@ -23,5 +23,38 @@ namespace MultApps.Server.Core
             return pesoIdeal; //return da variavél desejada.
 
         }
+
+        public static string MatriculaAluno(int idade, string categoria)
+        {
+
+            categoria = string.Empty;
+
+            if (idade > 17)
+            {
+                categoria = "Adulto";
+            }
+            else if (idade > 13)
+            {
+                categoria = "Juvenil B";
+            }
+            else if (idade > 10)
+            {
+                categoria = "Juvenil A";
+            }
+            else if (idade > 7)
+            {
+                categoria = "Infantil B";
+            }
+            else if (idade >= 5)
+            {
+                categoria = "Infantil A";
+            }
+            else
+            {
+                categoria = "Não existe categoria";
+            }
+
+            return categoria;
+        }
     }
 }
