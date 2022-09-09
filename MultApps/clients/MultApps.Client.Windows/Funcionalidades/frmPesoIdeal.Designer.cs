@@ -33,7 +33,8 @@
             this.rbnMasculino = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.txtAltura = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblPesoIdeal = new System.Windows.Forms.Label();
+            this.btnEnviarAltura = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,7 +72,6 @@
             this.rbnMasculino.TabStop = true;
             this.rbnMasculino.Text = "Masculino";
             this.rbnMasculino.UseVisualStyleBackColor = true;
-            this.rbnMasculino.CheckedChanged += new System.EventHandler(this.rbnMasculino_CheckedChanged);
             // 
             // label1
             // 
@@ -90,21 +90,32 @@
             this.txtAltura.Size = new System.Drawing.Size(100, 23);
             this.txtAltura.TabIndex = 2;
             // 
-            // label2
+            // lblPesoIdeal
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(149, 119);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Peso ideal";
+            this.lblPesoIdeal.AutoSize = true;
+            this.lblPesoIdeal.Location = new System.Drawing.Point(162, 171);
+            this.lblPesoIdeal.Name = "lblPesoIdeal";
+            this.lblPesoIdeal.Size = new System.Drawing.Size(38, 15);
+            this.lblPesoIdeal.TabIndex = 4;
+            this.lblPesoIdeal.Text = "label3";
+            // 
+            // btnEnviarAltura
+            // 
+            this.btnEnviarAltura.Location = new System.Drawing.Point(143, 112);
+            this.btnEnviarAltura.Name = "btnEnviarAltura";
+            this.btnEnviarAltura.Size = new System.Drawing.Size(89, 32);
+            this.btnEnviarAltura.TabIndex = 5;
+            this.btnEnviarAltura.Text = "ENVIAR";
+            this.btnEnviarAltura.UseVisualStyleBackColor = true;
+            this.btnEnviarAltura.Click += new System.EventHandler(this.btnEnviarAltura_Click);
             // 
             // frmPesoIdeal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 450);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(376, 249);
+            this.Controls.Add(this.btnEnviarAltura);
+            this.Controls.Add(this.lblPesoIdeal);
             this.Controls.Add(this.txtAltura);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
@@ -127,6 +138,7 @@
         private RadioButton rbnMasculino;
         private Label label1;
         private TextBox txtAltura;
-        private Label label2;
+        private Label lblPesoIdeal;
+        private Button btnEnviarAltura;
     }
 }

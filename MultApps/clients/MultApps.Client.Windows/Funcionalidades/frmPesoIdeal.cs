@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MultApps.Server.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,20 +13,28 @@ namespace MultApps.Client.Windows.Funcionalidades
 {
     public partial class frmPesoIdeal : Form
     {
-        RadioButton rbnSelecionado = null;
-
         public frmPesoIdeal()
         {
             InitializeComponent();
         }
 
-        private void rbnMasculino_CheckedChanged(object sender, EventArgs e)
+        public void btnEnviarAltura_Click(object sender, EventArgs e)
         {
-            RadioButton rbn = (RadioButton)sender;
-            if (rbn.Checked)
+
+            var sexo = string.Empty;
+            double altura = double.Parse(txtAltura.Text);
+
+            if (rbnMasculino.Checked == true)
             {
-                rbnSelecionado = rbn;
+                sexo = "Masculino";
             }
+            else if (rbnFeminino.Checked == true)
+            {
+                sexo = "Feminino";
+            }
+
+            lblPesoIdeal.Text = Utilidades.SetPesoIdeal(sexo, altura).ToString("N");    //para chamar a função é necessário digitar seu nome (Utilidade) e o metodo desejado (SetPesoIdeal)
+
         }
     }
 }

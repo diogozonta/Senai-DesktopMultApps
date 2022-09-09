@@ -6,25 +6,22 @@ using System.Threading.Tasks;
 
 namespace MultApps.Server.Core
 {
-    internal class Utilidades
+    public static class Utilidades
     {
-        private void SetPesoIdeal()
+                                        //declaração das variavéis que virão do local principal.
+        public static double SetPesoIdeal(string sexo, double altura)   // double para dizer qual tipo de dado a função deve retornar.
         {
-            try
-            {
-                double altura = Convert.ToDouble(txtAltura.Text);
-                double pesoIdeal;
-                if (rbnSelecionado.Text.Equals("Masculino"))
-                    pesoIdeal = (72.7 * altura) - 58;
-                else
-                    pesoIdeal = (62.1 * altura) - 44.7;
-                lblPesoIdeal.Text = pesoIdeal.ToString("N");
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show("Selecione o sexo e informe a altura corretamente", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+            var pesoIdeal = 0.0;
 
+            if (sexo == "Masculino")
+            {
+                pesoIdeal = (72.7 * altura) - 58;
+            }
+            else
+                pesoIdeal = (62.1 * altura) - 44.7;
+
+            return pesoIdeal; //return da variavél desejada.
+
+        }
     }
 }
